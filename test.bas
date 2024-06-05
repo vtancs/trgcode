@@ -1,0 +1,5 @@
+LET A = 5
+LET B = 10
+LET C = A + B * 2
+PRINT C
+PRINT A + B
