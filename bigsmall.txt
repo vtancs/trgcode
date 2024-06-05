@@ -1,0 +1,27 @@
+All Possible Rolls: Using itertools.product, we generate all possible outcomes of rolling three dice.
+
+    Probability Calculation: For each roll:
+        Sum Probabilities: We count how many times each sum (from 3 to 18) appears.
+        Specific Triple Probabilities: We count how many times each specific triple (e.g., 111, 222) appears.
+        Any Triple Probability: We count how many times any triple appears.
+        Double Probabilities: We count how many times at least two of the dice show a specific number.
+        Single Probabilities: We count how many times each number appears on one or more dice.
+    Convert Counts to Probabilities: We convert the counts into probabilities by dividing by the total number of outcomes (216).
+    Display Results: We print out the probabilities for each type of bet.
+
+This program calculates and displays the probabilities for different types of bets in Sic Bo, providing an accurate overview of the game's odds.
+
+--
+
+To calculate the probability of consecutive "Big" and "Small" outcomes occurring in Sic Bo, we need to first define what "Big" and "Small" mean:
+
+    "Big" refers to the sum of the three dice being between 11 and 17 (inclusive), except when all three dice show the same number (a triple).
+    "Small" refers to the sum of the three dice being between 4 and 10 (inclusive), except when all three dice show the same number (a triple).
+
+Let's break down the steps to calculate the probabilities:
+
+    Calculate the probability of getting a "Big" result.
+    Calculate the probability of getting a "Small" result.
+    Simulate a series of Sic Bo rolls and count the occurrences of consecutive "Big" and "Small" results.
+
+First, let's calculate the probabilities for "Big" and "Small" outcomes

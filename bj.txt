@@ -1,0 +1,10 @@
+Explanation:
+
+    Card Values and Deck Initialization: The values of the cards are defined, and a single deck is created.
+    Draw Card Function: This function draws a card from the deck.
+    Hand Value Calculation: This function calculates the value of a hand, accounting for aces being either 1 or 11.
+    Play Blackjack Function: This function simulates a single game of blackjack, following basic player and dealer rules.
+    Simulate Blackjack Games Function: This function simulates a specified number of blackjack games and calculates the probabilities of winning, losing, and pushing.
+    Simulation Execution: The simulation is run for 100,000 games, and the probabilities are printed.
+
+Adjust the number of games to improve the accuracy of the simulation.
